@@ -1,5 +1,5 @@
 .parent{
-  background-color: #FFAB91;
+  background-color: rgb(128, 222, 234);;
    
 }
 
@@ -10,26 +10,32 @@
   top: 0; right: 0; bottom: 0; left: 0;
   margin: auto;
   text-align: center;
-  background-color: #1A237E;
-  color: #FF8A65;
+  background-color: black;
+  color: #B2EBF2;
+
+}
+#container.close{
+  max-height: 270px;
+  overflow: hidden;
 }
 #playground {
   width: 400px;
   height: 400px;
   border: 2px solid #3f4c6b;
   position: relative;
-  background-color: #e64a19;
+  background-color: #B2EBF2;
 }
 #endScreen{
   width: 404px;
-  height: 404px;
+  height: 620px;
   position: absolute;
   top: 19px;
   text-align: center;
   padding-top: 100px;
   box-sizing: border-box;
-  color: black;
-  background: #e64a19 ;
+  color: #B2EBF2;
+  background: black ;
+  overflow: hidden;
 
 }
 #endCount, #endSeconds{
@@ -44,9 +50,11 @@
 }
 #timer{
   float: right;
+  color: black;
 }
 #counter {
   float: left;
+  color: black;
 }
 #start, #startGame {
   width: 50px;
@@ -60,10 +68,10 @@
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   margin: auto;
-  background: #3949ab;
+  background:black; ;
   border: 2px solid #666;
-  color: black;
-  cursor: pointer;
+  color: #B2EBF2;
+  
 }
 
 #win{
@@ -72,6 +80,19 @@
   position: relative;
   border-radius: 50%;
   border: 2px solid #666;
-  background: #1A237E;
+  background: black;
 
+}
+
+#info.openn{
+  height: 270px;
+ 
+}
+
+#lets-play{
+  background-color: #B2EBF2;
+  height: 50px;
+  border: 10px ;
+  border-radius: 100px;
+  border-color: black;
 }
